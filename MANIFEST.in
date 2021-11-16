@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include milcoloresapp *.css
+recursive-include milcoloresapp *.csv
+recursive-include milcoloresapp *.html
+recursive-include milcoloresapp *.ico
+recursive-include milcoloresapp *.js
+recursive-include milcoloresapp *.json
+recursive-include milcoloresapp *.md
+recursive-include milcoloresapp *.png
+recursive-include milcoloresapp *.py
+recursive-include milcoloresapp *.svg
+recursive-include milcoloresapp *.txt
+recursive-exclude milcoloresapp *.pyc
