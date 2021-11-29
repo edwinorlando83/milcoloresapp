@@ -1,0 +1,143 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:codigo",
+ "creation": "2021-11-16 21:46:28.025533",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "codigo",
+  "descripcion",
+  "stock_disponible_bodega_principal",
+  "stock_disponible_insumos",
+  "stock_disponible_almacen_santa_clara",
+  "stock_disponible_almacen_cumbaya",
+  "stock_disponible_almacen_sangolqui",
+  "stock_disponible_almacen_recreo",
+  "punto_6",
+  "total_milcolores",
+  "bodega_exclusividad",
+  "stock_disponible_almacen_shyris",
+  "total_stock_exclusividad",
+  "total_general"
+ ],
+ "fields": [
+  {
+   "fieldname": "codigo",
+   "fieldtype": "Data",
+   "label": "C\u00f3digo",
+   "unique": 1
+  },
+  {
+   "fieldname": "descripcion",
+   "fieldtype": "Data",
+   "label": "Descripci\u00f3n"
+  },
+  {
+   "fieldname": "stock_disponible_bodega_principal",
+   "fieldtype": "Float",
+   "label": "Stock Disponible Bodega Principal"
+  },
+  {
+   "fieldname": "stock_disponible_insumos",
+   "fieldtype": "Float",
+   "label": "Stock Disponible Insumos"
+  },
+  {
+   "fieldname": "stock_disponible_almacen_santa_clara",
+   "fieldtype": "Float",
+   "label": "Stock Disponible Almac\u00e9n Santa Clara"
+  },
+  {
+   "fieldname": "stock_disponible_almacen_cumbaya",
+   "fieldtype": "Float",
+   "label": "Stock Disponible Almac\u00e9n Cumbaya"
+  },
+  {
+   "fieldname": "stock_disponible_almacen_sangolqui",
+   "fieldtype": "Float",
+   "label": "Stock Disponible Almac\u00e9n Sangolqui"
+  },
+  {
+   "fieldname": "stock_disponible_almacen_recreo",
+   "fieldtype": "Float",
+   "label": "Stock Disponible Almac\u00e9n Recreo"
+  },
+  {
+   "fieldname": "punto_6",
+   "fieldtype": "Float",
+   "label": "punto 6 MilColores"
+  },
+  {
+   "fieldname": "total_milcolores",
+   "fieldtype": "Float",
+   "label": "Total MILCOLORES"
+  },
+  {
+   "fieldname": "bodega_exclusividad",
+   "fieldtype": "Float",
+   "label": "Bodega Exclusividad"
+  },
+  {
+   "fieldname": "stock_disponible_almacen_shyris",
+   "fieldtype": "Float",
+   "label": "Stock Disponible Almac\u00e9n Shyris"
+  },
+  {
+   "fieldname": "total_stock_exclusividad",
+   "fieldtype": "Float",
+   "label": "TOTAL STOCK EXCLUSIVIDAD"
+  },
+  {
+   "fieldname": "total_general",
+   "fieldtype": "Float",
+   "label": "TOTAL GENERAL 2"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-11-29 05:42:53.354938",
+ "modified_by": "Administrator",
+ "module": "Milcoloresapp",
+ "name": "Stock",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "CLIENTE",
+   "share": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
