@@ -1,103 +1,155 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:codigo",
+ "autoname": "field:numero",
  "creation": "2021-11-16 21:46:28.025533",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
   "codigo",
+  "precio",
+  "column_break_7",
   "descripcion",
+  "section_break_4",
   "stock_disponible_bodega_principal",
   "stock_disponible_insumos",
   "stock_disponible_almacen_santa_clara",
   "stock_disponible_almacen_cumbaya",
+  "section_break_8",
   "stock_disponible_almacen_sangolqui",
   "stock_disponible_almacen_recreo",
   "punto_6",
   "total_milcolores",
+  "section_break_14",
   "bodega_exclusividad",
   "stock_disponible_almacen_shyris",
   "total_stock_exclusividad",
-  "total_general"
+  "total_general",
+  "numero"
  ],
  "fields": [
   {
    "fieldname": "codigo",
    "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "C\u00f3digo",
-   "unique": 1
+   "reqd": 1
   },
   {
    "fieldname": "descripcion",
    "fieldtype": "Data",
-   "label": "Descripci\u00f3n"
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Descripci\u00f3n",
+   "reqd": 1
   },
   {
    "fieldname": "stock_disponible_bodega_principal",
    "fieldtype": "Float",
-   "label": "Stock Disponible Bodega Principal"
+   "label": "Stock Disponible Bodega Principal",
+   "reqd": 1
   },
   {
    "fieldname": "stock_disponible_insumos",
    "fieldtype": "Float",
-   "label": "Stock Disponible Insumos"
+   "label": "Stock Disponible Insumos",
+   "reqd": 1
   },
   {
    "fieldname": "stock_disponible_almacen_santa_clara",
    "fieldtype": "Float",
-   "label": "Stock Disponible Almac\u00e9n Santa Clara"
+   "label": "Stock Disponible Almac\u00e9n Santa Clara",
+   "reqd": 1
   },
   {
    "fieldname": "stock_disponible_almacen_cumbaya",
    "fieldtype": "Float",
-   "label": "Stock Disponible Almac\u00e9n Cumbaya"
+   "label": "Stock Disponible Almac\u00e9n Cumbaya",
+   "reqd": 1
   },
   {
    "fieldname": "stock_disponible_almacen_sangolqui",
    "fieldtype": "Float",
-   "label": "Stock Disponible Almac\u00e9n Sangolqui"
+   "label": "Stock Disponible Almac\u00e9n Sangolqui",
+   "reqd": 1
   },
   {
    "fieldname": "stock_disponible_almacen_recreo",
    "fieldtype": "Float",
-   "label": "Stock Disponible Almac\u00e9n Recreo"
+   "label": "Stock Disponible Almac\u00e9n Recreo",
+   "reqd": 1
   },
   {
    "fieldname": "punto_6",
    "fieldtype": "Float",
-   "label": "punto 6 MilColores"
+   "label": "punto 6 MilColores",
+   "reqd": 1
   },
   {
    "fieldname": "total_milcolores",
    "fieldtype": "Float",
-   "label": "Total MILCOLORES"
+   "label": "Total MILCOLORES",
+   "reqd": 1
   },
   {
    "fieldname": "bodega_exclusividad",
    "fieldtype": "Float",
-   "label": "Bodega Exclusividad"
+   "label": "Bodega Exclusividad",
+   "reqd": 1
   },
   {
    "fieldname": "stock_disponible_almacen_shyris",
    "fieldtype": "Float",
-   "label": "Stock Disponible Almac\u00e9n Shyris"
+   "label": "Stock Disponible Almac\u00e9n Shyris",
+   "reqd": 1
   },
   {
    "fieldname": "total_stock_exclusividad",
    "fieldtype": "Float",
-   "label": "TOTAL STOCK EXCLUSIVIDAD"
+   "label": "TOTAL STOCK EXCLUSIVIDAD",
+   "reqd": 1
   },
   {
    "fieldname": "total_general",
    "fieldtype": "Float",
-   "label": "TOTAL GENERAL 2"
+   "in_list_view": 1,
+   "label": "TOTAL GENERAL ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "numero",
+   "fieldtype": "Data",
+   "label": "numero",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_7",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "precio",
+   "fieldtype": "Currency",
+   "label": "Precio"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-11-29 05:42:53.354938",
+ "modified": "2021-12-06 09:48:27.533822",
  "modified_by": "Administrator",
  "module": "Milcoloresapp",
  "name": "Stock",

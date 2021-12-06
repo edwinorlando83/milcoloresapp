@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:nombres",
+ "creation": "2021-12-06 09:46:51.992363",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "cedula",
+  "nombres",
+  "direccion",
+  "correo",
+  "tel\u00e9fono"
+ ],
+ "fields": [
+  {
+   "fieldname": "cedula",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "RUC/Cedula",
+   "reqd": 1
+  },
+  {
+   "fieldname": "nombres",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Nombres Completos",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "direccion",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Direcci\u00f3n ",
+   "reqd": 1
+  },
+  {
+   "fieldname": "correo",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Correo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tel\u00e9fono",
+   "fieldtype": "Data",
+   "label": "Tel\u00e9fono",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-12-06 09:51:00.670103",
+ "modified_by": "Administrator",
+ "module": "Milcoloresapp",
+ "name": "Cliente",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

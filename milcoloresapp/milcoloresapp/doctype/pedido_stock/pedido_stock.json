@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2021-12-06 09:54:11.204659",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "stock",
+  "pruducto",
+  "cantidad",
+  "precio"
+ ],
+ "fields": [
+  {
+   "fieldname": "stock",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "C\u00f3digo",
+   "options": "Stock",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cantidad",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Cantidad",
+   "reqd": 1
+  },
+  {
+   "fieldname": "precio",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Precio",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "stock.descripcion",
+   "fieldname": "pruducto",
+   "fieldtype": "Read Only",
+   "in_list_view": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-12-06 09:57:58.481401",
+ "modified_by": "Administrator",
+ "module": "Milcoloresapp",
+ "name": "pedido_stock",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
