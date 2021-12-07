@@ -38,13 +38,14 @@
    "fetch_from": "stock.descripcion",
    "fieldname": "pruducto",
    "fieldtype": "Read Only",
-   "in_list_view": 1
+   "in_list_view": 1,
+   "label": "Producto"
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2021-12-06 09:57:58.481401",
+ "modified": "2021-12-06 10:02:08.521606",
  "modified_by": "Administrator",
  "module": "Milcoloresapp",
  "name": "pedido_stock",
