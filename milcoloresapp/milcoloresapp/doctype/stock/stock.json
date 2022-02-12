@@ -149,7 +149,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-12-06 15:34:31.943621",
+ "modified": "2022-02-12 04:34:49.988582",
  "modified_by": "Administrator",
  "module": "Milcoloresapp",
  "name": "Stock",
@@ -175,7 +175,7 @@
    "print": 1,
    "read": 1,
    "report": 1,
-   "role": "Administrator",
+   "role": "EMPRESA",
    "share": 1,
    "write": 1
   },
@@ -187,17 +187,6 @@
    "report": 1,
    "role": "CLIENTE",
    "share": 1
-  },
-  {
-   "create": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Vendedor",
-   "share": 1,
-   "write": 1
   }
  ],
  "search_fields": "descripcion,codigo",

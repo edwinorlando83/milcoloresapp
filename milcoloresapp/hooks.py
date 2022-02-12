@@ -173,3 +173,8 @@ user_data_fields = [
 # 	"milcoloresapp.auth.validate"
 # ]
 
+permission_query_conditions = {
+ 	"Cliente": "milcoloresapp.milcoloresapp.filtros.filtros.get_permission_query_conditions_cliente",
+	 "Pedido": "milcoloresapp.milcoloresapp.filtros.filtros.get_permission_query_conditions_pedidos",
+  
+ }
